@@ -45,7 +45,7 @@ cleos get table vectortable vectortable referamount
 ### test addtoken
 
 ```bash
-cleos push action vectortable addtoken '["bob","1.0000 EOS"]' -p bob@active
+cleos push action vectortable addtoken '["bob","1.0000 EOS"]' -p alice@active
 cleos push action vectortable addtoken '["bob","0.0000 ETH"]' -p bob@active
 cleos push action vectortable addtoken '["bob","0.0000 BTC"]' -p bob@active
 
