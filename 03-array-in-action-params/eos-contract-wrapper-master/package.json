@@ -1,0 +1,31 @@
+{
+  "name": "eos-contract-wrapper",
+  "version": "0.0.2",
+  "description": "eos contract wrapper",
+  "keywords": [
+    "eos",
+    "eosjs",
+    "contracts",
+    "eos contract"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "url": "https://github.com/clockknock/eos-contract-wrapper.git",
+    "type": "git"
+  },
+  "dependencies": {
+    "big.js": "^5.2.2",
+    "eosjs": "^20.0.0-beta3",
+    "node-fetch": "^2.3.0",
+    "text-encoding": "latest",
+    "eos-service": "latest"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "author": "cypher zhong",
+  "license": "MIT"
+}
