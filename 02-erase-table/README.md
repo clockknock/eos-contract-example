@@ -1,4 +1,6 @@
 example of erase table from one action
+from this example you can learn:
+1.iterator the multi_index_table and erase them all.
 
 
 
@@ -32,7 +34,7 @@ cleos set contract erasetable /Users/zhong/coding/CLion/contracts/eos-contract-e
 
 
 ### add records
-
+1. add records to multi_index_table
 ```bash
 cleos push action erasetable insert '["bob"]' -p bob@active
 cleos push action erasetable insert '["alice"]' -p alice@active
@@ -41,6 +43,7 @@ cleos push action erasetable insert '["alice"]' -p alice@active
 
 
 ### query table
+2. check table's records
 
 ```bash
 cleos get table erasetable erasetable records
@@ -63,6 +66,7 @@ Result:
 
 
 ### erase table
+3. push action to erase table
 
 ```bash
 cleos push action erasetable erase '[]' -p erasetable@active
@@ -79,6 +83,7 @@ cleos get table erasetable erasetable records
 
 
 Result:
+you can see the table is empty now.
 
 ```bash
 {

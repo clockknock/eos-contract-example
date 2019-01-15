@@ -1,6 +1,9 @@
 demo of push actions with array string.
 
-
+from this example you can learn:
+1. declare an action with vector params which let you can send array to contract.
+2. command line with push array.
+3. push action with JavaScript from contract-wrapper.
 
 
 
