@@ -1,4 +1,19 @@
-### some eos contract example
+## some eos contract example
+
+
+
+####  Before Start
+
+To make sure your can see debug detail, please start your nodeos by these two command:
+
+```bash
+  --contracts-console \
+  --verbose-http-errors \
+```
+
+
+
+
 
 Please enter the child folder and check their `READMD.md` and then check their code .
 
